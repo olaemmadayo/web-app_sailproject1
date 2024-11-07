@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "manrope" sans-serif;
+}
+.herosection{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+    background-image: url("./travelgo/bgimage.png");
+    background-position: top-left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    border: 1px solid hotpink;
+}
+.nav {
+    width: 300px;
+    height: 50px;
+    border: 1px solid hotpink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    width: 85px;
+    height: 30px;
+    border: 1px solid blue;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+.profile{
+    width: 110px;
+    height: 50px;
+    border: 1px solid hotpink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.hero-content{
+    width: 50%;
+    border: 1px solid pink;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.tagline h1{
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 80px;
+}
+.herotext p{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+.cta button{
+    width: 214px;
+    height: 64px;
+    background-color: #00a651;
+    color: #ffffff;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border-color: #00a651;
+}
+.service-rap{
+    padding: 50px;
+}
+.service-rap h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.service-card-rap{
+    display: flex;
+    gap: 100px;
+    border: 1px solid green;
+    height: 300px;
+    align-items: center;
+
+}
+.card-grey{
+    border: 1px solid red;
+    width: 416px;
+    height: 232px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    padding: 20px 25px;
+}
+.card-grey h6{
+    font-weight: 800px;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 13px;
+}
+.card-white{
+    border: 1px solid red;
+    width: 416px;
+    height: 232px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px 25px;
+}
+.card-white h6{
+    font-weight: 800px;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 13px;  
+}
+.card-greyii{
+    border: 1px solid red;
+    width: 416px;
+    height: 232px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    padding: 20px 25px;
+}
+.card-greyii h6{
+    font-weight: 800px;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 13px;    
+}
+
+
+
+
+.best-section{
+    padding: 50px;
+    width: 1751;
+    height: 500px;
+    border: solid red;
+    background-image: url(./travelgo/world_map.png);
+    /* justify-items: center; */
+}
+
+.best-section-content {
+    border: 1px solid green;
+    justify-items: center;
+}
+.best-section-content h1{
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+    width: 518px;
+    /* height: 40px; */
+    /* margin: 0px auto; */
+    
+    
+}
+.best-section-content p{
+    font-size: 15px;
+    font-weight: 400px;
+    text-align: center;
+    width: 495px;
+    margin-top: 10px;
+    /* height: 44px; */
+    /* margin: 45px auto; */
+    
+}
+.best-section-wrap{
+    width: 1500;
+    height: 250px;
+    display: flex;
+    border: solid red;
+    align-items: center;
+    /* gap: 100px; */
+    justify-content: space-between;
+}
+.experience{
+    border: 1px solid red;
+    width: 200px;
+    height: 170px;
+    border-radius: 15px;
+    justify-items: center;
+    
+}
+
+.experience h3{
+    margin-top: 15px;
+    margin: bottom 15px;
+    text-align: center;
+    
+}
+.experience h6{
+    /* ,,,,,,,,,,,, */
+    margin-top: 10px;
+    margin: bottom 15px;
+    text-align: center;
+}
+.travellers{
+    border: 1px solid red;
+    width: 200px;
+    height: 170px;
+    border-radius: 15px;
+    justify-items: center;
+}
+.travellers h3{
+    /* ,,,,,,,,,,,, */
+    margin-top: 10px;
+    margin: bottom 15px;
+    text-align: center;
+}
+.travellers h6{
+    /* ,,,,,,,,,,,, */
+    margin-top: 10px;
+    margin: bottom 15px;
+    text-align: center;
+}
+.visited{
+    border: 1px solid red;
+    width: 200px;
+    height: 170px;
+    border-radius: 15px;
+    justify-items: center;
+}
+.visited h3{
+    /* ,,,,,,,,,,,, */
+    margin-top: 10px;
+    margin: bottom 15px;
+    text-align: center;
+}
+.visited h6{
+    /* ,,,,,,,,,,,, */
+    margin-top: 10px;
+    margin: bottom 15px;
+    text-align: center;
+}
+.history{
+    border: 1px solid red;
+    width: 200px;
+    height: 170px;
+    border-radius: 15px;
+    justify-items: center;
+
+}
+.history h3{
+    /* ,,,,,,,,,,,, */
+    margin-top: 10px;
+    margin: bottom 15px;
+    text-align: center;
+}
+.history h6{
+    /* ,,,,,,,,,,,, */
+    margin-top: 10px;
+    margin: bottom 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* .head{
+    height: 70px;
+    width: 100%;
+    margin: auto;
+    border: 1px solid green;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 50x;
+    border: 1px solid blue;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.navigation{
+    height: 50px;
+    width: 300px;
+    border: 1px solid blue;
+
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+
+}
+.navigation a{
+    height: 30px;
+    width: 85px;
+    border: 1px solid blue;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+}
+.profiling{
+    height: 50px;
+    width: 110px;
+    border: 1px solid black;
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+}
+.travelgo {
+    background-image: url("./travelgo/bgimage.png");
+}
+.travel-content{
+    width: 400px;
+    height: 200px;
+    border: 1px solid orange;
+    margin-top: 15%;
+    margin-left: 450px;
+    align-items: center;
+    grid-template-columns: auto;
+    justify-items: center;
+    justify-content: space-between;
+}
+.main-content {
+    height: 100px;
+    width: 400px;
+    color: white;
+    border: 1px solid green;
+    border: 1px solid blue;
+    font-size: 20px;
+}
+.main-content-p {
+    height: 50px;
+    width: 400px;
+    border: 1px solid blue;
+    color: white;
+}
+.main-content-p p {
+    height: 20px;
+    width: 400px;
+}
+.cta {
+    border: 1px solid red;
+    margin-top: 20px;
+}
+.cta button {
+    height: 30px;
+    width: 120px;
+  background-color:  #00A651;
+  ;
+  ;
+  color: white;
+  border-radius: 0.2cm;
+  
+} */div
