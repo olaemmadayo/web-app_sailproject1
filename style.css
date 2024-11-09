@@ -59,20 +59,26 @@
     border: 1px solid pink;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 150px;
+    margin-bottom: 100px ;
+    justify-items: center;
+    
 }
+
 .tagline h1{
-    font-size: 60px;
+    font-size: 50px;
     color: #ffffff;
     text-align: center;
-    margin-top: 30px;
-    line-height: 80px;
+    margin-top: 50px;
+    line-height: 60px;
+    width: 500px;
 }
 .herotext p{
     font-size: 16px;
     color: #ffffff;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    width: 400px;
 }
 .cta button{
     width: 214px;
@@ -149,13 +155,14 @@
 .best-section{
     padding: 50px;
     width: 1751;
-    height: 500px;
+    height: 450px;
     border: solid red;
     background-image: url(./travelgo/world_map.png);
     /* justify-items: center; */
 }
 
 .best-section-content {
+    margin-top: 0px;
     border: 1px solid green;
     justify-items: center;
 }
@@ -253,6 +260,7 @@
     height: 170px;
     border-radius: 15px;
     justify-items: center;
+    
 
 }
 .history h3{
@@ -267,10 +275,82 @@
     margin: bottom 15px;
     text-align: center;
 }
-
-
-
-
+.our-population-destinations{
+    border: 1px solid blue;
+}
+.our-population-destinations h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.population-wrap{
+    display: flex;
+    /* gap: 100px; */
+    height: 500px;
+    border: 1px solid green;
+    justify-content: space-around;
+}
+.tin_wrap{
+    justify-items: space-between;
+    gap: 20px;
+    border: 1px solid red;
+    height: 450px;
+    margin-top: 20px;
+}
+.thailand{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.thai{
+    width: 100px;
+    height: 100px;
+}
+.arr{
+    width: 20px;
+    height: 20px;
+}
+.indonesia{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px 0px;
+}
+.indo{
+    width: 100px;
+    height: 100px;
+}
+.arr2{
+    width: 20px;
+    height: 20px;
+}
+.New_Zealand{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+}
+.new{
+    width: 100px;
+    height: 100px;
+}
+.arr3{
+    width: 20px;
+    height: 20px;
+}
 
 
 /* .head{
