@@ -8,7 +8,6 @@
 .herosection{
     width: 100%;
     height: 100vh;
-    /* border: 1px solid red; */
     background-image: url("./travelgo/bgimage.png");
     background-position: top-left;
     background-size: cover;
@@ -17,7 +16,6 @@
 .header{
     width: 100%;
     height: 70px;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,12 +23,10 @@
 .logo{
     width: 100px;
     height: 50px;
-    /* border: 1px solid hotpink; */
 }
 .nav {
     width: 300px;
     height: 50px;
-    /* border: 1px solid hotpink; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +34,6 @@
 .nav a{
     width: 85px;
     height: 30px;
-    /* border: 1px solid blue; */
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -49,7 +44,6 @@
 .profile{
     width: 110px;
     height: 50px;
-    /* border: 1px solid hotpink; */
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -64,7 +58,6 @@
   }
 .hero-content{
     width: 50%;
-    /* border: 1px solid pink; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
@@ -96,15 +89,15 @@
     display: block;
     margin: 20px auto;
     border-radius: 10px;
-    /* border-color: #00a651; */
+   
 }
 .service-rap {
     padding: 50px;
     background-color: #ffffff;
     width: 100%;
     height: 100vh;
-    /* margin-bottom: 40px; */
-    border: 1px solid blue;
+
+    
 }
 .service-rap h1{
     text-align: center;
@@ -114,18 +107,16 @@
 .service-card-rap{
     display: flex;
     justify-content: space-around;
-    /* gap: 100px; */
-    border: 1px solid green;
+   
+
     height: 60vh;
     width: 100%;
     justify-content: center;
-    /* align-items: center; */
     padding: 50px 50px;
     background-color: #ffffff;
 
 }
 .card-grey{
-    /* border: 1px solid red; */
     width: 416px;
     height: 180px;
     border-radius: 15px;
@@ -139,7 +130,6 @@
     margin-bottom: 13px;
 }
 .card-white{
-    /* border: 1px solid red; */
     width: 416px;
     height: 180px;
     border-radius: 15px;
@@ -169,32 +159,24 @@
     margin-bottom: 13px;    
 }
 
-
 /* ################### */
 .best-section{
     padding: 50px;
-    width: 1751;
+    width: 100%;
     height: 450px;
-    border: solid red;
     background-image: url(./travelgo/world_map.png);
     background-color: rgb(227, 236, 248);
-    /* justify-items: center; */
 }
 
 .best-section-content {
     margin-top: 40px;
-    /* border: 1px solid green; */
     justify-items: center;
 }
 .best-section-content h1{
     font-size: 35px;
     font-weight: 700px;
     text-align: center;
-    width: 518px;
-    /* height: 40px; */
-    /* margin: 0px auto; */
-    
-    
+    width: 518px;  
 }
 .best-section-content p{
     font-size: 15px;
@@ -202,8 +184,6 @@
     text-align: center;
     width: 495px;
     margin-top: 10px;
-    /* height: 44px; */
-    /* margin: 45px auto; */
     
 }
 .best-section-wrap{
@@ -325,7 +305,7 @@
 .tin_wrap{
     justify-items: space-between;
     gap: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 450px;
     margin-top: 20px;
 }
@@ -557,7 +537,6 @@
     width: 100%;
     height: 100vh;
     padding: 10px;
-    border: 1px solid red;
 }
 
 .book-section h2{
@@ -577,11 +556,10 @@
     justify-items: center;
     justify-content: space-around;
     padding: 0px 30px ;
-    border: 1px solid red;
+
 }
 .trip img{
     display: block;
-    /* margin: auto auto; */
     width: 700px;
     height: 500px;
     margin-bottom: 20px;
@@ -606,7 +584,7 @@
 .testimony-wrap{
     width: 100%;
     height: 550px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: flex; */
     justify-content: space-around;
     justify-items: center;
@@ -617,10 +595,10 @@
 }
 
 .testimony-wrap img{
-    width: 900px;
+    width: 80%;
     height: 400px;
     display: block;
-    margin-top: 40px;
+    margin: auto auto;
     position: relative;
     z-index: 5;
 
@@ -651,7 +629,7 @@
     z-index: 20;
     position: absolute;
     left: 30%;
-    top: -160px;
+    top: -125px;
 }
 /* subscribe section */
 
@@ -665,7 +643,7 @@ height: 100vh;
 .subsection{
     width: 50%;
     height: 250px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 30px auto;
     background-color: #cee4db;
     border-top-left-radius: 100px;
@@ -718,7 +696,7 @@ height: 100vh;
     margin-top: 100px;
     width: 100%;
     height: 250px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
     padding: 20px 20px;
@@ -1143,19 +1121,19 @@ height: 100vh;
    
 }
 .tgoo-wrap{
-    width: 120px
+    width: 130px;
 }
 .tgoo-wrap img{
     margin-left: 0px;
 }
 .company-wrap{
-    width: 120px
+    width: 130px
 }
 .more-wrap{
     width: 120px;
 }
 .contact-wrap{
-    width: 120px;
+    width: 130px;
    
 }
 .contact-wrap h5{
